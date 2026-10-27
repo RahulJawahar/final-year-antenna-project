@@ -1,0 +1,46 @@
+{
+  "f_res": {
+    "label": "Resonant frequency (GHz)",
+    "r2": 0.6028433982443178,
+    "mae": 0.031743456335628736,
+    "rmse": 0.046373563458284105,
+    "params": {
+      "learning_rate": 0.1,
+      "max_depth": 2,
+      "n_estimators": 400
+    }
+  },
+  "s11_245": {
+    "label": "S11 at 2.45 GHz (dB)",
+    "r2": 0.4122500289858948,
+    "mae": 4.32634783467893,
+    "rmse": 6.309899729550774,
+    "params": {
+      "learning_rate": 0.1,
+      "max_depth": 4,
+      "n_estimators": 400
+    }
+  },
+  "bw_mhz": {
+    "label": "-10 dB bandwidth (MHz)",
+    "r2": 0.576781698029012,
+    "mae": 13.486780867575412,
+    "rmse": 16.72859862810253,
+    "params": {
+      "learning_rate": 0.1,
+      "max_depth": 4,
+      "n_estimators": 400
+    }
+  },
+  "gain_rz_0": {
+    "label": "Realized gain (dBi)",
+    "r2": 0.7480754089812744,
+    "mae": 1.4444863941040627,
+    "rmse": 1.7887274249778762,
+    "params": {
+      "learning_rate": 0.1,
+      "max_depth": 4,
+      "n_estimators": 400
+    }
+  }
+}
