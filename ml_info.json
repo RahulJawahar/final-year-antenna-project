@@ -1,0 +1,7 @@
+{
+  "n_samples": 84,
+  "n_train": 67,
+  "n_test": 17,
+  "n_candidates": 200000,
+  "n_meeting_constraints": 251
+}
